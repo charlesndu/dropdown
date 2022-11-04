@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+:root {
+    --color-primary-blue: #00ABFA;
+    --color-border-grey: #CACBCE;  
+    --color-item-hover-background: #F2F2F3;
+    --size-input-border-radius: 12px;
+    --size-input-input-height: 52px;
+    --size-input-padding-x: 16px;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.DropDown  {
+    height: 45px;
+    width: 35%;
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    border-radius: 18px;
+    margin: 40px auto;
+    vertical-align: middle;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+}
+
+.DropDown-Opts {
+    max-height: 200px;
+    background-color: #FFF;
+    margin-top: 3px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 4px rgba(24, 25, 27, 0.3), 0px 1px 6px rgba(24, 25, 27, 0.15);
+    overflow: scroll;
+}
+
+.DropDown-Opts .Selected {
+    color: var(--color-primary-blue);
+}
+
+.DropDown-Opt {
+    padding: 10px;
+    text-align: left;
+}
+
+.DropDown-Opt:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.DropDown-Selector {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Selected-Text {
+    height: 30px;
+    width: 200px;
+    padding-left: 20px;
+    text-align: left;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Close {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.Arrow {
+    height: 30px;
+    width: 30px;
+    float: right;
+    right: 10px;
+    position: relative;
+}
